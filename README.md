@@ -1,2 +1,2 @@
 # misc_scripts
-A collection of miscalleneous scripts.
+A collection of miscellaneous scripts
