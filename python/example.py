@@ -52,7 +52,6 @@ def create_logger(environment, logfile, logdir, logstash_handler=None):
 		lgr.create_logging_directory()
 		logger, file_handler = lgr.create_logger_instance()
 		logger.info("Logger created successfully")
-		# No need to assign value to a variable below as the 'logger' object is being passed by reference, not by value.
 		lgr.add_logstash_handler(logger, logstash_handler)
 	except Exception as e:
 		# If the logger does not get created successfully, exit the script
